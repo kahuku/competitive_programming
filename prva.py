@@ -1,3 +1,5 @@
+#This gives a runtime error on the first Kattis test case, but passes all 3 provided test cases
+
 import numpy as np
 
 def getWords(board, wordlist):
