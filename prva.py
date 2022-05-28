@@ -1,43 +1,33 @@
-#This gives a runtime error on the first Kattis test case, but passes all 3 provided test cases
+def transpose(board):
+    transposed = []
+    for i in range(len(board[0])):
+        transposed.append([])
 
-import numpy as np
+    for i, row in enumerate(board):
+        for j, col in enumerate(row):
+            transposed[j].append(board[i][j])
+    return transposed
 
 def getWords(board, wordlist):
     for row in board:
-        word = ''
-        for i, char in enumerate(row, start=1):
-            if char != '#' and i != len(row):
-                word += char
-            if i == len(row) and char != '#':
-                word += char
-                if len(word) > 1:
-                    wordlist.add(word)
-            if i == len(row) and char == '#':
-                if len(word) > 1:
-                    wordlist.add(word)
-            if i != len(row) and char == '#':
-                if len(word) > 1:
-                    wordlist.add(word)
-                word = ''
-        if word != '':
+        rowText = ''.join(row)
+        words = [word for word in rowText.split('#') if word != '']
+        for word in words:
             if len(word) > 1:
-                wordlist.add(word)    
+                wordlist.add(word)
 
 inp = [int(i) for i in input().split()]
 rows, cols = inp[0], inp[1]
 
-#get board into memory
 board = []
 for row in range(rows):
     board.append([char for char in input()])
 
 wordlist = set()
 
-#get horizontal words
 getWords(board, wordlist)
 
-#get vertical words
-boardTranspose = np.transpose(board)
+boardTranspose = transpose(board)
 getWords(boardTranspose, wordlist)
 
 print(sorted(wordlist)[0])
