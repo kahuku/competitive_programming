@@ -1,0 +1,1 @@
+input();print(sum([j for j in [int(i) for i in input().split()] if j < 0]) * -1)
