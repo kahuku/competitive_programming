@@ -27,3 +27,14 @@ class Solution:
             return True
         return False
             
+class Solution:
+    def backspaceCompare(self, s: str, t: str) -> bool:
+        def backspace(string):
+            a = []
+            for char in string:
+                if char == '#':
+                    if len(a) > 0: a.pop()
+                else:
+                    a.append(char)
+            return ''.join(a)
+        return backspace(s) == backspace(t)
