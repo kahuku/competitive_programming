@@ -15,3 +15,15 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         return False
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        s = set()
+        node = head
+        while node is not None:
+            if node not in s:
+                s.add(node)
+            else:
+                return True
+            node = node.next
+        return False
