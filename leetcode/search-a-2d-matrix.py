@@ -22,3 +22,21 @@ class Solution:
                 low = mid + 1
             mid = (low + high) // 2
         return False
+
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        newMatrix = []
+        for row in matrix:
+            newMatrix.extend(row)
+        
+        low = 0
+        high = len(newMatrix)
+        while low < high:
+            mid = (low + high) // 2
+            if newMatrix[mid] == target:
+                return True
+            elif newMatrix[mid] > target:
+                high = mid
+            else:
+                low = mid + 1
+        return False
