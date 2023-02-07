@@ -7,3 +7,10 @@ class Solution:
             else:
                 steps.append(steps[i - 1] + steps[i - 2])
         return steps[n]
+
+# too slow
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        if n == 1 or n == 2 or n == 3:
+            return n
+        return self.climbStairs(n - 1) + self.climbStairs(n - 2)
