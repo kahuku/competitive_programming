@@ -14,3 +14,10 @@ class Solution:
         if n == 1 or n == 2 or n == 3:
             return n
         return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        dp = [1, 2]
+        for i in range(2, n):
+            dp.append(dp[i - 1] + dp[i - 2])
+        return dp[n - 1]
