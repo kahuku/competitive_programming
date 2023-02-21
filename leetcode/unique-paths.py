@@ -18,3 +18,13 @@ class Solution:
                     elif col == 0:
                         grid[row][col] = grid[row - 1][col]
         return grid[-1][-1]
+    
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        grid = [[0] * n for _ in range(m)]
+        grid[0][:] = [1] * n
+        for row_i in range(1, m):
+            grid[row_i][0] = grid[row_i - 1][0]
+            for col_i in range(1, n):
+                grid[row_i][col_i] = grid[row_i - 1][col_i] + grid[row_i][col_i - 1]
+        return grid[-1][-1]
