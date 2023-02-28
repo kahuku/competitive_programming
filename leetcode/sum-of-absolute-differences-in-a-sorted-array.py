@@ -20,3 +20,11 @@ class Solution:
             r_sum = abs(post[i+1] - nums[i] * right_count if i != len(nums) - 1 else 0)
             ans.append(l_sum + r_sum)
         return ans
+
+class Solution:
+    def getSumAbsoluteDifferences(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        ans = [sum(nums) - nums[0] * n]
+        for i in range(1, n):
+            ans.append(ans[i - 1] - (nums[i] - nums[i - 1]) * (n - i) + (nums[i] - nums[i - 1]) * i)
+        return ans
