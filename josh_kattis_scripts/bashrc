@@ -1,0 +1,16 @@
+passoff () {
+        python ~/code/kattis/passoff $1
+}
+
+run () {
+    python ~/code/kattis/run $1
+}
+
+function submit {
+        ~/code/kattis/submit
+}
+function kattis {
+        [ ! -d "~/code/kattis/$1/" ] && mkdir ~/code/kattis/$1
+        cd ~/code/kattis/$1
+        ~/code/kattis/kattis $1
+}
