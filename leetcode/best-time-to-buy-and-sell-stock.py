@@ -20,3 +20,15 @@ class Solution:
             if l > r:
                 l = r
         return m
+    
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        profit = 0
+        l, r = 0, 0
+        for i in range(len(prices)):
+            r = i
+            potential_profit = prices[r] - prices[l]
+            profit = max(profit, potential_profit)
+            if potential_profit < 0:
+                l = r
+        return profit
