@@ -1,0 +1,2 @@
+Haven't implemented this yet, this is copied straight from Josh. Will need to modify to make it work on my system if I so decide.
+Teikn also has a similar set of scripts for c++.
