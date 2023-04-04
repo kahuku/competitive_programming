@@ -40,3 +40,22 @@ class Solution:
             else:
                 low = mid + 1
         return False
+    
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        def convertplace(index):
+            r = index // len(matrix[0])
+            c = index % len(matrix[0])
+            return r, c
+        
+        low, mid, high = 0, 0, len(matrix[0]) * len(matrix) - 1
+        while low <= high:
+            mid = (high + low) // 2
+            row, col = convertplace(mid)
+            if matrix[row][col] == target:
+                return True
+            elif matrix[row][col] > target:
+                high = mid - 1
+            else:
+                low = mid + 1
+        return False
