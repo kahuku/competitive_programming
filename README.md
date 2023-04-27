@@ -24,7 +24,7 @@ Solutions to [Google's Kickstart](https://codingcompetitions.withgoogle.com/kick
 
 ## leetcode
 Solutions to [Leetcode](https://leetcode.com/explore/) practice problems. My account: <https://leetcode.com/kahuku/>.
-Main platform for BYU CS 393 (Advanced Algorithms & Interview Prep) assignments, taken in Winter semester 2023 with Brother Michael Reynolds (ex Microsoft) and Dr Ryan Farrell.
+Main platform for BYU CS 393 (Advanced Algorithms & Interview Prep) assignments, taken in Winter semester 2023.
 
 ## meta_hacker_cup
 Solutions to [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup/) competitions. 
