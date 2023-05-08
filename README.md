@@ -28,3 +28,6 @@ Main platform for BYU CS 393 (Advanced Algorithms & Interview Prep) assignments,
 
 ## meta_hacker_cup
 Solutions to [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup/) competitions. 
+
+## helpers
+Helper functions for competitive programming. Includes definitions for leetcode data structures and helper functions for visualization, as well as automated kattis test/passoff scripts.
