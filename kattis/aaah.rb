@@ -1,0 +1,1 @@
+puts gets.length >= gets.length ? "go" : "no"

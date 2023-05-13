@@ -1,0 +1,1 @@
+puts 'h' + ('e' * gets.count('e') * 2) + 'y'
