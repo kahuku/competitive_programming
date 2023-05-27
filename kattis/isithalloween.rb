@@ -1,0 +1,1 @@
+s = gets.chomp; puts s == 'OCT 31' || s == 'DEC 25' ? 'yup' : 'nope'

@@ -1,0 +1,1 @@
+gets; puts gets.chomp.split(' ').map(&:to_i).count {|temp| temp < 0}
