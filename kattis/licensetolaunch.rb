@@ -1,0 +1,1 @@
+gets; puts gets.chomp.split(' ').map(&:to_i).each_with_index.min[1]

@@ -1,0 +1,1 @@
+puts "Thank you, #{gets.chomp}, and farewell!"
