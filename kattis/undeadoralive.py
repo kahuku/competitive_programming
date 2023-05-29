@@ -1,0 +1,6 @@
+s = input()
+a, b = s.find(":)"), s.find(":(")
+if a >= 0 and b < 0: print("alive")
+elif a < 0 and b >= 0: print("undead")
+elif a >= 0 and b >= 0: print("double agent")
+else: print("machine")
