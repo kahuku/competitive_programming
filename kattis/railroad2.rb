@@ -1,0 +1,1 @@
+puts gets.chomp.split.map(&:to_i)[1] % 2 == 1 ? 'impossible' : 'possible'
