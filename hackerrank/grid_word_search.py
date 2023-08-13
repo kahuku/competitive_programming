@@ -1,4 +1,5 @@
-
+# cisco summer 2024 intern assessment
+# find which words are in a grid up, down, left, or right
 """
 grid, represents the letters in the grid of size N*M.
 word, represents the words to be searched of size K.

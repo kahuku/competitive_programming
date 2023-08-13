@@ -1,3 +1,5 @@
+# JPMorgan summer SWE 2024 intern app
+# sort list of integers by the number of 1 bits in their binary representation and then by their base10 value
 from collections import defaultdict
 
 def sortByBits(arr):

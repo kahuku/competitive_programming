@@ -1,5 +1,7 @@
 #!/bin/python3
 
+# Goldman Sachs 2023 intern application
+
 import math
 import os
 import random

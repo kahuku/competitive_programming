@@ -1,4 +1,5 @@
-
+# Cisco summer 2024 intern assessment
+# count how many numbers between 1 and X whose digits add to Y
 """
 inputNum1, represents the number X.
 inputNum2, represents the number Y.

@@ -4,7 +4,7 @@ require 'json'
 require 'stringio'
 
 # Too slow
-
+# Goldman Sachs 2023 intern application
 
 #
 # Complete the 'countPalindromes' function below.

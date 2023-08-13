@@ -1,3 +1,5 @@
+# JPMorgan 2024 Summer SWE intern app
+# given number of steps and index to avoid
 def maximumIndex(steps, badIndex):
     furthest = 0
     starting_steps = steps

@@ -1,6 +1,7 @@
 #!/bin/python3
 
 # Too slow
+# Goldman Sachs 2023 intern application
 
 import math
 import os
