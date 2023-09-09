@@ -1,0 +1,1 @@
+print(int(2022 + (int(input()) / int(input()))))
