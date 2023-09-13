@@ -1,0 +1,5 @@
+input()
+pct = float(input())
+n = int(input())
+count = sum([1 for _ in range(n) if input().split()[0] == 'plast'])
+print("Jebb" if count / n >= (1 - pct) else "Neibb")
