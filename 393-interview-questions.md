@@ -20,4 +20,5 @@
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)          | Data Structures (LinkedList)    | Medium       |
 | [Arbitrage](https://open.kattis.com/problems/arbitrage)          | ???    | Medium       |
 | [Bar Classification](https://open.kattis.com/problems/barclassification)          | Data Structures (Array)    | Easy       |
+| [Lamps and Points](./codesignal/lamps_and_points.py)          | ???    | Medium       |
 | [Problem 1](Link to Problem 1)          | Category    | Difficulty       |
