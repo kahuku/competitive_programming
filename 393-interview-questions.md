@@ -18,4 +18,6 @@
 | [Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)          | DP    | Medium       |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)          | Data Structures (Stack)    | Medium       |
 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)          | Data Structures (LinkedList)    | Medium       |
+| [Arbitrage](https://open.kattis.com/problems/arbitrage)          | ???    | Medium       |
+| [Bar Classification](https://open.kattis.com/problems/barclassification)          | Data Structures (Array)    | Easy       |
 | [Problem 1](Link to Problem 1)          | Category    | Difficulty       |
