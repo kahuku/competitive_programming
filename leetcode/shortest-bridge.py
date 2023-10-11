@@ -2,7 +2,6 @@ from queue import *
 class Solution:
     def shortestBridge(self, grid: List[List[int]]) -> int:        
         def findIsland(grid):
-            visited = set()
             def dfs(r, c, grid, island):
                 if r < 0 or r >= len(grid) or c < 0 or c >= len(grid[0]) or (r, c) in visited or grid[r][c] != 1:
                     return island
@@ -13,6 +12,8 @@ class Solution:
                 island = dfs(r, c + 1, grid, island)
                 island = dfs(r, c - 1, grid, island)
                 return island
+
+            visited = set()
 
             for r in range(len(grid)):
                 for c in range(len(grid[r])):
