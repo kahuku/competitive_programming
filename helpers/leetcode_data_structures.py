@@ -45,7 +45,7 @@ def tree_to_list(root):
     return l
 
 def list_to_tree(l):
-    """Converts a list to a binary tree."""
+    """Converts a list (level-order-traversal) to a binary tree."""
     if not l:
         return None
     root = TreeNode(l[0])
