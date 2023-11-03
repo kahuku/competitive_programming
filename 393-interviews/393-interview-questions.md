@@ -9,9 +9,6 @@
 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/)          | Data Structures (HashMap)    | Medium       |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)          | Data Structures (HashMap)    | Easy       |
 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)          | DP    | Medium       |
-| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)          | DP    | Medium       |
-| [Unique Paths](https://leetcode.com/problems/unique-paths/)          | DP    | Medium       |
-| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)          | DP    | Medium       |
 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)          | BFS    | Medium       |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)          | Data Structures (Array)    | Medium       |
 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)          | Data Structures (Array)    | Easy       |
