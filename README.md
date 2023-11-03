@@ -31,3 +31,9 @@ Solutions to [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacke
 
 ## helpers
 Helper functions for competitive programming. Includes definitions for leetcode data structures and helper functions for visualization, as well as automated kattis test/passoff scripts.
+
+## 393-interviews
+Questions/problems and solutions to be used in 393 TA interviews
+
+## codesignal
+Solutions to codesignal challenges from past interviews
