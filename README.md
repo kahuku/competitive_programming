@@ -10,8 +10,8 @@ Solutions to [Codeforces](https://codeforces.com/) practice problems. My account
 ## practicepython.org
 Solutions to [Practice Python](https://www.practicepython.org/) coding problems.
 
-## advent_of_code2022
-Solutions to [Advent of Code 2022](https://adventofcode.com/2022) challenges. 
+## advent_of_code
+Solutions to [Advent of Code](https://adventofcode.com) challenges. 
 
 ## hackerrank
 Solutions to [Hackerrank](https://www.hackerrank.com/) challenges. My account: <https://www.hackerrank.com/kahuku?hr_r=1>
