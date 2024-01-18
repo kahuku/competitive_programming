@@ -13,3 +13,6 @@
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | TODO
 | [Ransom Note](https://leetcode.com/problems/ransom-note/description/) | TODO
 | [Lamps and Points](./codesignal/lamps_and_points.py) | TODO
+| [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/) | TODO
+| [Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/) | TODO
+| [Video Stitching](https://leetcode.com/problems/video-stitching/description/) TODO

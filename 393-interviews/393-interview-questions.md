@@ -1,1 +1,0 @@
-Guide to CS 393 Mock Interviews, including questions sorted by topic, answers, and tips for improvement.

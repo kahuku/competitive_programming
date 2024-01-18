@@ -1,3 +1,1 @@
-Current list of questions on [393-interview-questions.md](./393-interview-questions.md)
-
-Want folder and readme for each problem
+Want folder, solution, and readme for each problem. Readme should have pointers on conducting the interview, things to pay attention to, and tips for improving the solution.
