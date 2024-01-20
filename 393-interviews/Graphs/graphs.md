@@ -9,3 +9,4 @@
 | [All Ancestors of a Node in Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/) |TODO
 | [Node with Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/description/) | TODO
 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/) | TODO
+| [Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/description/) | TODO
