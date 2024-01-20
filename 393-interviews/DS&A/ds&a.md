@@ -23,3 +23,4 @@
 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/) | TODO
 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/) | TODO
 | [Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/description/) | TODO
+| [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | TODO
