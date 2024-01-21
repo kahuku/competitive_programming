@@ -1,0 +1,5 @@
+Hey class! Thought I'd share a few tools and resources I found useful while I was going through the class and as I've been preparing for interviews. Feel free to message me any other resources you've found useful and I'll add them to the list.
+- BYU Competitive Programming Club (https://discord.gg/8URPcVhN). We meet Thursday nights at 7pm, details in the Discord. Lots of great practice in a fun competitive environment, cool people, and it counts towards your hours for the class
+- Ways to find good leetcode problems: https://neetcode.io/ and https://www.techinterviewhandbook.org/grind75
+- GitHub interview prep repos: https://github.com/jwasham/coding-interview-university https://github.com/ajhayden/TechnicalInterviewCourse https://github.com/yangshun/tech-interview-handbook
+- Make a cool GitHub profile to stand out to recruiters: https://github.com/abhisheknaiidu/awesome-github-profile-readme https://www.profileme.dev/
