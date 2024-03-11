@@ -2,8 +2,8 @@
 # Given two arrays of integers, return the length of the longest common prefix between any two integers from different arrays
 # Ex:
 # arr1 = [25, 256, 54567, 2, 54]
-# arr2 = [30, 256, 54568, 3, 5]
-# Ans: 4 (54567 and 54568 have prefix of 5456)
+# arr2 = [30, 256, 3, 545683, 5]
+# Ans: 4 (54567 and 545683 have prefix of 5456)
 
 # TLE
 def solution(arr1, arr2):
@@ -47,3 +47,37 @@ def solution(arr1, arr2):
     for t in threads:
         t.join()
     return max(d)
+
+# Trie solution
+def solution(arr1, arr2):
+    root = {}
+    def addTrieNode(num):
+        num = str(num)
+        curr = root
+        for dig in num:
+            if dig not in curr:
+                curr[dig] = {}
+            curr = curr[dig]
+
+    def countDepth(num):
+        depth = 0
+        num = str(num)
+        curr = root
+        for dig in num:
+            if dig in curr:
+                curr = curr[dig]
+                depth += 1
+            else:
+                break
+        return depth
+    
+    for num in arr1:
+        addTrieNode(num)
+    
+    longest = 0
+    for num in arr2:
+        longest = max(countDepth(num), longest)
+
+    return longest
+
+print(solution([25, 256, 54567, 2, 54], [30, 256, 3, 545683, 5]))
