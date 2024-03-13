@@ -10,3 +10,5 @@
 | [Node with Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/description/) | TODO
 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/) | TODO
 | [Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/description/) | TODO
+| [Path Sum](hhttps://leetcode.com/problems/path-sum/description/) | TODO
+| [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/) | TODO
