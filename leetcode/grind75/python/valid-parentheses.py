@@ -1,4 +1,7 @@
+# Stack
+
 class Solution:
+    # O(n) time | O(n) space
     def isValid(self, s: str) -> bool:
         opens = '{(['
         closes = '})]'
