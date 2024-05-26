@@ -22,3 +22,8 @@ class Solution:
             else:
                 count -= 1
         return ma
+
+class Solution:
+    # O(nlog(n)) time | O(1) space
+    def majorityElement(self, nums: List[int]) -> int:
+        return sorted(nums)[len(nums) // 2]
