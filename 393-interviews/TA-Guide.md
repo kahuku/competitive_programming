@@ -41,3 +41,42 @@ Most common points of feedback I give:
 - **Optimization**: Once you have a working solution, think about how you can make it better. Can you make it faster? Use less memory? Handle more complex inputs?
 - **Communication**: Make sure you're communicating clearly with the interviewer. If you're stuck, let them know. If you have an idea, share it. If you're not sure about something, ask.
 
+## Topic Exams
+Throughout the semester, we typically have a few topic exams. These are opportunities for students to pass off / demonstrate their understanding of a particular topic. For the most part, they're self-reported by students. They're done a bit differently every year but typically there is a "live" portion where students have to solve a problem with a time limit in front of a TA, and students can complete this by signing up for time on your calendar. You'll want to remind them they can book 2 back-to-back slots as these problems can often take more than 30 minutes without your help. Students can also retake topic exams (confirm this, topic exam formats do change from year to year), so students can book time on your calendar for that as well.
+
+## Other Responsibilities as a TA
+
+**Help With Resumes, LinkedIn, and Nontechnical Interviews**
+
+A lot of students have asked me about what should go on their resume, how to format it, any resources that might exist, etc. I will usually show them my resume/LinkedIn and point them to [Lane Muranaka](https://careers.byu.edu/lane-muranaka) who's a great resource for this kind of thing. I also have a list of resources I've found helpful for this kind of thing that I can share with you if you're interested. 
+
+Then we'll usually talk a little bit about that student's experience so far, what they've done with problem solving and computer science outside of class, and then use that to help them build their resume. [Here](https://careers.byu.edu/students/hiring-resources/resumes/resume-templates) are BYU's resume templates.
+
+This approach is also really helpful because for many companies, the first interview you'll get is often a resume/experience review with a recruiter, so it's good to practice talking through your resume experience and how it relates to the job you're applying for. There are also tons of basic questions that you can prepare for that are common in these kinds of interviews, so we'll usually talk through some of those as well. A simple Google search / prior experience should be enough to help you prepare a list of 10ish questions that are asked in 80% of behavioral/fit interviews. Here are some of the most common ones I've seen:
+
+1. Tell me about yourself
+    - Very common, deceptive in its simplicity. You should have a 1-2 minute answer prepared that covers your background, your experience, and your career goals.
+2. Why do you want to work here?
+    - This is a great opportunity to show that you've done your research on the company and that you're excited about the work they're doing.
+3. What are your strengths/weaknesses?
+    - This is a classic question that you should have a good answer prepared for. For strengths, try to think of a few that are relevant to the job you're applying for. For weaknesses, try to think of something that's actually a weakness (none of that "I work too hard" stuff) but that you're actively working on improving.
+4. Tell me about a time you had a conflict with a coworker
+5. What's a project you're proud of / a project you've worked on outside of school / tell me about a difficult technical problem you've solved
+    - Show enthusiasm for the work you've done and be prepared to talk about it in detail.
+6. Tell me about a time you've led a team
+
+**Final Exam**
+
+393 has a final exam that the students must pass to pass the class. Typically, it involves solving a certain number of leetcode problems out of a set over three sessions. Typically there are ~12 questions and you need to solve 6 for 100%. Students can use 2 partial solutions (passing 50%+ of the test cases and having a good approach) to make up for up to one full solution. This part also does change slightly from year to year so be sure to confirm with the professor. Typically, the questions for each session are announced at the beginning and for their solution to count towards their final exam grade, they need to solve it in that one sitting. 
+
+As a TA, if you're available, you should come to class or help out over Zoom by administering hints via the help queue. The professor will usually set up a Google Sheets document linked to a survey that students can submit their progress to and solicit help. You can then go through the sheet and help students who are stuck.
+
+**Reassurance & Confidence Building**
+
+Everyone will learn at a different pace. Different students have different strengths and weaknesses both as interviewees and as future software engineers. It's important to remember that not being able to solve a problem as fast as someone else or or not understanding dynamic programming after several weeks of practice does not mean you're not cut out for this field. You might just need more time, more practice, or a different approach.
+
+The same way that students have different strengths and weaknesses, different jobs have different requirements, and someone that may be unfit for one job may be a perfect fit for another. Even if the job has the same title, roles can look different at different companies. It's not important to land an offer at a top company to be successful in tech. It's much more important to find a role that fits your individual gifts and passions, helps you grow, and provides the opportunities you need to thrive.
+
+Keep this in mind for yourself and for your students. A lot of them may express disappointment, frustration, or despair at their progress. Students have told me they feel hopeless at the job search and that this class has made them feel like they're not cut out for tech. When this happens, remind the students of the above. Computer science is a hard field. Imposter syndrome is rampant. It's normal to feel like you're not good enough. But you are. You're here, you're learning, you're growing. You're doing great. Keep going. Let's do what we can to help serve these students and reassure them that they are capable and that they can succeed. 
+
+Similarly, a lot of students will be worried about this class. Many students aren't phased at all by the workload or the technical aspects of this class, but to some, it's overwhelming. Be aware of these students and be available to help reassure them that they can succeed and that you are there to help them. A lot of the concerns come from ambiguity or unclear understanding of course/assignment expectations. Be sure to clarify these as much as possible and be available to help students understand what they need to do to succeed.If you have any questions, ask the other TAs or the professor. We're all here to help you succeed in this role. Good luck!
