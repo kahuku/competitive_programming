@@ -37,3 +37,6 @@ Questions/problems and solutions to be used in 393 TA interviews
 
 ## codesignal
 Solutions to codesignal challenges from past interviews
+
+## project_euler
+Solutions to [Project Euler](https://projecteuler.net/) problems
