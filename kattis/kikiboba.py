@@ -1,0 +1,7 @@
+w = input()
+k = w.count('k')
+b = w.count('b')
+if k > b: print("kiki")
+if b > k: print("boba")
+if b == k == 0: print("none")
+elif b == k: print("boki")
