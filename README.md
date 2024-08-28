@@ -40,3 +40,6 @@ Solutions to codesignal challenges from past interviews
 
 ## project_euler
 Solutions to [Project Euler](https://projecteuler.net/) problems
+
+## cses
+[https://cses.fi/](https://cses.fi/)
