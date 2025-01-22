@@ -52,4 +52,19 @@ class Solution(object):
                 dp[i][j] = res % constant
         return dp[n - 1][target - 1]
     
+class Solution:
+    def numRollsToTarget(self, n: int, k: int, target: int) -> int:
+        mod = (10 ** 9) + 7
+        mat = [[0] * (target + 1) for _ in range(n + 1)]
+        mat[0][0] = 1
+
+        for nD in range(1, n + 1):
+            for t in range(1, target + 1):
+                for f in range(1, k + 1):
+                    if t - f >= 0:
+                        mat[nD][t] = (mat[nD][t] + mat[nD - 1][t - f]) % mod
+        
+        print(mat)
+        return mat[n][target]
+    
 print(Solution().numRollsToTarget(3, 6, 7))
