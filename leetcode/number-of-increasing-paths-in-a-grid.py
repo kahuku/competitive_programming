@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 class Solution:
     def countPaths(self, grid):
         rows = len(grid)
